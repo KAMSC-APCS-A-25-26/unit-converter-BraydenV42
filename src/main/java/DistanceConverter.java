@@ -31,8 +31,8 @@ public class DistanceConverter {
                     System.out.println();
                     System.out.println("Coversion Results: ");
                     kilometers = miles * 1.60935;
-                    System.out.println("Miles: " + miles);
-                    System.out.println("Kilometers: " + kilometers + "\n");
+                    System.out.println("Miles: " + miles + " miles");
+                    System.out.println("Kilometers: " + kilometers + " kilometers\n");
                     break;
                 case 2:
                     System.out.print("Enter distance in Kilometers: ");
@@ -40,8 +40,8 @@ public class DistanceConverter {
                     System.out.println();
                     System.out.println("Coversion Results: ");
                     miles = kilometers / 1.60935;
-                    System.out.println("Kilometers: " + kilometers);
-                    System.out.println("Miles: " + miles + "\n");
+                    System.out.println("Kilometers: " + kilometers + " kilometers");
+                    System.out.println("Miles: " + miles + " miles\n");
                     break;
                 case 3:
                     System.out.println("Goodbye!");
