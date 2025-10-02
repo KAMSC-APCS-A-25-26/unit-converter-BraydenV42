@@ -29,9 +29,13 @@ public class DistanceConverter {
                 case 1:
                     miles = sc.nextDouble();
                     kilometers = miles * 1.60935;
+                    System.out.println(kilometers);
+                    break;
                 case 2:
                     kilometers = sc.nextDouble();
                     miles = kilometers / 1.60935;
+                    System.out.println(miles);
+                    break;
                 case 3:
                     System.out.println("Goodbye!");
                     running = false;
