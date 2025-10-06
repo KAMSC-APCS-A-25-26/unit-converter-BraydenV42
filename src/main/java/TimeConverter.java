@@ -23,6 +23,9 @@ public class TimeConverter {
             Second = sc.nextDouble();
             System.out.println("\n");
 
+            System.out.println("Time Conversion: ");
+            System.out.println("Input: " + Hour + " hour(s), " + Minute + " minute(s), " + Second + " seconds");
+            running = false;
         }
     }
 }
